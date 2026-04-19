@@ -1,7 +1,3 @@
-[PrimerEntregaPortafolio.pdf](https://github.com/user-attachments/files/26163606/PrimerEntregaPortafolio.pdf)
+ [segundoAvancePortafolio.pdf](https://github.com/user-attachments/files/26863906/segundoAvancePortafolio.pdf)
 
-[Diagrama.pdf](https://github.com/user-attachments/files/26163481/primerAvancePortafolio.pdf)
-
-
-![primerAvancePortafolio](https://github.com/user-attachments/assets/73ddc9d3-216a-40e3-bbba-bcca41c60319)
-
+<img width="8494" height="4611" alt="segundoAvancePortafolio" src="https://github.com/user-attachments/assets/b9234e8a-c5e2-48c8-b449-267054a7133f" />
