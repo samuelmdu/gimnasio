@@ -10,8 +10,6 @@ public abstract class Usuario  {
     private String correoElectronico;
     private LocalDate fechaNacimiento;
     private int edad;
-    private ArrayList<LocalDate> diasAsistidos = new ArrayList<>();
-    private int totalDiasAsistidos;
     private String contrasenna;
 
     public Usuario(String nombreCompleto, String correoElectronico, LocalDate fechaNacimiento, String contrasenna) {
@@ -50,18 +48,6 @@ public abstract class Usuario  {
         this.fechaNacimiento = fechaNacimiento;
     }
 
-    public ArrayList<LocalDate> getDiasAsistidos() {
-        return diasAsistidos;
-    }
-
-    public int getTotalDiasAsistidos() {
-        return totalDiasAsistidos;
-    }
-
-    public void setTotalDiasAsistidos(int totalDiasAsistidos) {
-        this.totalDiasAsistidos = totalDiasAsistidos;
-    }
-
     public String getContrasenna() {
         return contrasenna;
     }
@@ -69,14 +55,6 @@ public abstract class Usuario  {
     public void setContrasenna(String contrasenna) {
         this.contrasenna = contrasenna;
     }
-
-    public void marcar(){
-
-    };
-
-    public void diasAsistidos(){
-       totalDiasAsistidos =+ totalDiasAsistidos;
-    };
 
     @Override
     public String toString() {

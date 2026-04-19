@@ -44,23 +44,6 @@ public class Cliente extends Usuario{
         ticket.setPago(true);
     }
 
-    public void marcar(){
-        LocalDate hoy = LocalDate.now();
-
-        if (getDiasAsistidos().contains(hoy)){
-            System.out.println("\nError: ya se registro su asistencia el dia de hoy " + hoy + "\n");
-            return;
-        }
-
-        getDiasAsistidos().add(hoy);
-        System.out.println("El día " + hoy + " fue registrado correctamente.");
-        diasAsistidos();
-    };
-
-    public void diasAsistidos(){
-        setTotalDiasAsistidos(getTotalDiasAsistidos() + 1);
-    };
-
     @Override
     public String toString() {
         return "\nNombre Completo   : " + getNombreCompleto() +
